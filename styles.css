@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("images/bg-intro-desktop.png");
+    background-color: #D3DEDC;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 400;
+    margin-top: 5rem;
+}
+
+button{
+    margin-left: 1.5rem;
+    padding: 3px 8px;
+    border: 2px solid black;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+ul{
+    margin-top: 1rem;
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li{
+    cursor: pointer;
+    padding: 0.5rem;
+    user-select: none;
+}
+
+
+/* classes and id's */
+
+
+.clipCard{
+    height: max-content;
+    width: max-content;
+    background-color: #FFF89A;
+    border-radius: 5px;
+    padding: 2.5rem;
+    font-size:1.5rem;
+    font-weight:300;
+}
+
+ul li.checked{
+    text-decoration: line-through;
+}
+
+.close{
+    float: right;
+    background-color: whitesmoke;
+    padding: 4px;
+}
+
+.close:hover{
+    background-color: red;
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
